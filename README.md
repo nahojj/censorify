@@ -3,7 +3,7 @@
 
 ## Usage
 
-Create a <filename>.js file and do this
+Create a filename.js file and do this
 
 var censor = require('censorify');
 
@@ -15,4 +15,4 @@ censor.addCensoredWord("gloomy");
 console.log(censor.getCensoredWords());
 console.log(censor.censor("A very gloomy day."));
 
-Then run node <filename>.js
+Then run node filename.js
