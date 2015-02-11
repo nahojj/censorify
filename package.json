@@ -1,0 +1,11 @@
+{
+	"author": "Johan Johansson",
+	"name": "censorify",
+	"version": "0.1.1",
+	"description": "Censors word out of text",
+	"main": "censortext",
+	"dependencies": {},
+	"engines": {
+		"node": "*"
+	}
+}
