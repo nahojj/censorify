@@ -16,11 +16,11 @@ function addCensoredWord(word) {
 	customCensoredWords.push(word);
 }
 
-function getCensoredWors() {
+function getCensoredWords() {
 	return censoredWords.concat(customCensoredWords);
 }
 
 // Required for node, access.
 exports.censor = censor;
 exports.addCensoredWord = addCensoredWord;
-exports.getCensoredWors = getCensoredWors;
+exports.getCensoredWords = getCensoredWords;
