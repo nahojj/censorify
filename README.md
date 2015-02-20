@@ -5,6 +5,7 @@
 
 Create a filename.js file and do this
 
+```javascript
 var censor = require('censorify');
 
 console.log(censor.getCensoredWords());
@@ -14,5 +15,9 @@ censor.addCensoredWord("gloomy");
 
 console.log(censor.getCensoredWords());
 console.log(censor.censor("A very gloomy day."));
+```
 
-Then run node filename.js
+Then run:
+```bash
+$ node filename.js
+```
